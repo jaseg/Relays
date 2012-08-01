@@ -1,0 +1,220 @@
+# EESchema Netlist Version 1.1 created  Wed 01 Aug 2012 08:33:54 PM CEST
+(
+ ( /501972CF $noname  P7 VCC1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501972C6 $noname  P8 VCC2 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501972C5 $noname  P9 VCC3 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501972C3 $noname  P10 VCC4 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501972C1 $noname  P11 VCC5 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501972BB $noname  P12 VCC6 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /501971EA $noname  P6 GND {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /501971A1 $noname  Rext1 1k25 {Lib=R}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /5019711C $noname  P5 SDO {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /5019711A $noname  P4 CKO {Lib=CONN_1}
+  (    1 N-000007 )
+ )
+ ( /50197116 $noname  P3 SDI {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /50197111 $noname  P2 CKI {Lib=CONN_1}
+  (    1 N-000022 )
+ )
+ ( /50197103 $noname  P1 VCC_in {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /5019707D $noname  P30 B6 {Lib=CONN_1}
+  (    1 N-000011 )
+ )
+ ( /5019707B $noname  P29 G6 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /5019707A $noname  P28 R6 {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+ ( /50197077 $noname  P27 B5 {Lib=CONN_1}
+  (    1 N-000017 )
+ )
+ ( /50197074 $noname  P26 G5 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /50197073 $noname  P25 R5 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /50197071 $noname  P24 B4 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /50197070 $noname  P23 G4 {Lib=CONN_1}
+  (    1 N-000006 )
+ )
+ ( /5019706E $noname  P22 R4 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /5019706D $noname  P21 B3 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /5019706B $noname  P20 G3 {Lib=CONN_1}
+  (    1 N-000012 )
+ )
+ ( /50197068 $noname  P19 R3 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /50197064 $noname  P18 B2 {Lib=CONN_1}
+  (    1 N-000016 )
+ )
+ ( /50197062 $noname  P17 G2 {Lib=CONN_1}
+  (    1 N-000018 )
+ )
+ ( /50197061 $noname  P16 R2 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /5019705F $noname  P15 B1 {Lib=CONN_1}
+  (    1 N-000020 )
+ )
+ ( /5019705D $noname  P14 G1 {Lib=CONN_1}
+  (    1 N-000025 )
+ )
+ ( /50197054 $noname  P13 R1 {Lib=CONN_1}
+  (    1 N-000024 )
+ )
+ ( /50196EA6 $noname  U1 WS2803 {Lib=WS2803}
+  (    1 GND )
+  (    2 N-000015 )
+  (    4 N-000022 )
+  (    5 N-000021 )
+  (    6 N-000024 )
+  (    7 N-000025 )
+  (    8 N-000020 )
+  (    9 N-000019 )
+  (   10 N-000018 )
+  (   11 N-000016 )
+  (   12 N-000014 )
+  (   13 N-000012 )
+  (   14 N-000010 )
+  (   15 N-000008 )
+  (   16 N-000006 )
+  (   17 N-000005 )
+  (   18 N-000004 )
+  (   19 N-000002 )
+  (   20 N-000017 )
+  (   21 N-000001 )
+  (   22 N-000013 )
+  (   23 N-000011 )
+  (   24 N-000009 )
+  (   25 N-000007 )
+  (   28 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component Rext1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ U1 21
+ P28 1
+Net 2 "" ""
+ U1 19
+ P26 1
+Net 3 "VCC" "VCC"
+ P7 1
+ U1 28
+ P9 1
+ P10 1
+ P11 1
+ P12 1
+ P8 1
+ P1 1
+Net 4 "" ""
+ U1 18
+ P25 1
+Net 5 "" ""
+ U1 17
+ P24 1
+Net 6 "" ""
+ P23 1
+ U1 16
+Net 7 "" ""
+ U1 25
+ P4 1
+Net 8 "" ""
+ U1 15
+ P22 1
+Net 9 "" ""
+ U1 24
+ P5 1
+Net 10 "" ""
+ U1 14
+ P21 1
+Net 11 "" ""
+ U1 23
+ P30 1
+Net 12 "" ""
+ U1 13
+ P20 1
+Net 13 "" ""
+ P29 1
+ U1 22
+Net 14 "" ""
+ U1 12
+ P19 1
+Net 15 "" ""
+ Rext1 1
+ U1 2
+Net 16 "" ""
+ U1 11
+ P18 1
+Net 17 "" ""
+ U1 20
+ P27 1
+Net 18 "" ""
+ U1 10
+ P17 1
+Net 19 "" ""
+ P16 1
+ U1 9
+Net 20 "" ""
+ P15 1
+ U1 8
+Net 21 "" ""
+ U1 5
+ P3 1
+Net 22 "" ""
+ U1 4
+ P2 1
+Net 23 "GND" "GND"
+ U1 1
+ Rext1 2
+ P6 1
+Net 24 "" ""
+ U1 6
+ P13 1
+Net 25 "" ""
+ U1 7
+ P14 1
+}
+#End
