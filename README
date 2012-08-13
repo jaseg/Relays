@@ -1,1 +1,8 @@
+Project overview
+----------------
 At c-base, we equipped 100 old east-german relays with RGB-leds. This repository contains the PCB designs and control software for this project.
+
+Subfolders
+----------
+
+ * ```ws2803-board``` contains a single-sided breakout board design for the SOP-28 version of the ws2803 18-channel 8-bit pwm constant current led driver

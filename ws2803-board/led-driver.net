@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Aug 2012 08:33:54 PM CEST
+# EESchema Netlist Version 1.1 created  Mon 13 Aug 2012 10:18:06 PM CEST
 (
  ( /501972CF $noname  P7 VCC1 {Lib=CONN_1}
   (    1 VCC )
@@ -96,7 +96,7 @@
  )
  ( /50196EA6 $noname  U1 WS2803 {Lib=WS2803}
   (    1 GND )
-  (    2 N-000015 )
+  (    3 N-000015 )
   (    4 N-000022 )
   (    5 N-000021 )
   (    6 N-000024 )
@@ -184,7 +184,7 @@ Net 14 "" ""
  P19 1
 Net 15 "" ""
  Rext1 1
- U1 2
+ U1 3
 Net 16 "" ""
  U1 11
  P18 1
